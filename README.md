@@ -1,2 +1,3 @@
-# cafeteria
- 
+# Cafeteria ☕
+
+> Em desenvolvimento... ⚒️⚙️
