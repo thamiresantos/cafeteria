@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeçalho {
+    margin: 20px 50px ;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(105, 45, 45);
+    border-radius: 25px;
+}
+
+#container-imagem-logo {
+   
+}
+
+#logo-img{
+    position: absolute;
+    top: -2px;
+    left: 55px;
+    height: 120px;
+    width: 100px;
+}
+
+.lista-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+}
+
+.lista-menu-item {
+    padding: 25px;
+}
+
+.lista-menu-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.lista-menu-link:hover {
+    color: white;
+}
