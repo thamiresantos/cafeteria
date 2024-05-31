@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Cafeteria</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/header.css">
 </head>
 <body>
     <header class="cabeçalho">
         <div id="container-imagem-logo"><img src="imagens/coffe-shop.png" id="logo-img"></div>
+
         <nav>
             <ul class="lista-menu">
                 <li class="lista-menu-item">
@@ -33,12 +34,17 @@
             </ul> 
         </nav>
 
-        <input type="search" class="pesquisa" placeholder="Encontre seu café favorito">
-
-        <div>
-            <img src="imagens/person.svg" alt="">
-            <img src="imagens/local_mall.svg" alt="">
+        <div class="container-area-pesquisa">
+            <input type="search" class="area-pesquisa" placeholder="Encontre seu café favorito">
+            <img src="imagens/search.svg" class="img-area-pesquisa" >
         </div>
+
+        <div class="container-icons">
+            <a href="#" class="container-icons-itens"><img src="imagens/local_mall.svg" alt="" id="carrinho"></a>
+            <a href="#" class="container-icons-itens"><img src="imagens/account_circle.svg" alt="" id="usuario"></a>
+            
+        </div>
+    
     </header>
 </body>
 </html>
