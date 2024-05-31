@@ -12,9 +12,6 @@
     border-radius: 25px;
 }
 
-#container-imagem-logo {
-   
-}
 
 #logo-img{
     position: absolute;
@@ -37,8 +34,42 @@
 .lista-menu-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.719);
+    font-size: 17px;
 }
 
 .lista-menu-link:hover {
     color: white;
 }
+
+.container-area-pesquisa {
+    margin:5px;
+    background-color: white;
+    border-radius: 25px;
+    width: 240px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.area-pesquisa {
+    background-color: white;
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.img-area-pesquisa {
+    height: 35px;
+    
+}
+
+.container-icons {
+    padding: 10px;
+    margin: 5px;
+}
+
+.container-icons-itens {
+    padding: 8px
