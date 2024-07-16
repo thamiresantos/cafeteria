@@ -195,7 +195,7 @@
     font-size: 15px;
 }
 
-.link-sabe-mais{
+.link-sabe-mais {
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -206,4 +206,71 @@
 
 .link-sabe-mais:hover {
     color: antiquewhite;
+}
+
+/* ----- banners ---- */
+
+.container-banner-01{
+    display: flex;
+    margin: 60px 0px;
+}
+
+.img-banner-01{
+    width: 50%;
+    height: 100%;
+
+}
+
+.container-textos-banner {
+    width: 50%;
+    background-color: var(--marron);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: antiquewhite;
+
+}
+
+.titulos-banner{
+    color: antiquewhite;
+    margin: 20px;
+    font-size: 25px;
+    font-family: var(--fonte-menu);
+
+}
+
+.textos-banner {
+    padding: 0 40px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.link-banner {
+    color: antiquewhite;
+}
+
+.link-banner:hover{
+    color: black;
+}
+
+.container-banner-02 {
+    display: flex;
+    margin: 80px 0px;
+    padding: 60px 0;
+}
+
+.img-banner02{
+    width: 33%;
+}
+
+.container-textos-banner-02 {
+    background-color: var(--marron-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: white;
 }
