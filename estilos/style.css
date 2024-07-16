@@ -121,6 +121,10 @@
     width: 25px;
 }
 
+.redes-sociais02 {
+    margin: 50px 80px;
+}
+
 /*------*/
 .container-opcoes-comida{
     display: flex;
@@ -257,7 +261,7 @@
 
 .container-banner-02 {
     display: flex;
-    margin: 80px 0px;
+    margin-top: 80px;
     padding: 60px 0;
 }
 
